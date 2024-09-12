@@ -57,6 +57,32 @@ logo = (f"""
 \033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m VERSION     :  0.1
 \033[1;31m[\033[1;32m≈\033[1;31m]\033[1;32m TOOL        :  \033[1;34mCr4cker\033[1;32m
 \033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;31m""")
+"""
+print("""
+Owner: CR4CK3R
+Facebook: FAIZAN MUGHAL
+ 
+""")
+CorrectUsername = "MF"
+CorrectPassword = "MF"
+ 
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;97m\x1b[1;91mTool Username \x1b[1;97m»» \x1b[1;97m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;97m \x1b[1;91mTool Password  \x1b[1;97m» \x1b[1;97m")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username 
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;94mWrong Password"
+            os.system('xdg-https://wa.me/+923482345908')
+    else:
+        print "\033[1;94mWrong Username"
+        os.system('xdg-https://wa.me/+923482345908')
+
+ 
 #----------------------------[MAIN/DEF]-----------------------------------#
 def main():
     user=[]
